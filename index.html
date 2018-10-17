@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>FORM!!!</title>
-  </head>
-  <body>
-    <h1>FORM!!!!</h1>
-    <form>
 
-        <div>
-          <input type="email" name="email"> Email
-          <br>
-          <input type="password" name="password"> Password
-          <br>
-          <input type="text" name="GitHub Username"> GitHub Username
-          <br>
-          <input type="radio" name="radio" value="Enterprise"> Enterprise
+<head>
+  <meta charset="utf-8">
+  <title>FORM!!!</title>
+</head>
 
-          <input type="radio" name="radio" value="Pro"> Pro
+<body>
+  <h1>FORM!!!!</h1>
+  <form>
 
-          <input type="radio" name="radio" value="Free"> Free
-          <br>
-          <input type="checkbox" name="RememberMe" value="RememberMe"> Remember Me?
+    <div>
+      <input type="email" name="email" required>
+      <label for="email">Email</label>
+
+      <br>
+      <input type="password" name="password" required>
+      <label for="password">Password</label>
+      <br>
+      <input type="text" name="GitHubUsername" required>
+      <label for="GitHubUsername">GitHub Username</label>
+
+      <br>
+      <input type="radio" name="radio" <label for="radio">Radio</label required>
+
+
+      <input type="radio" name="radio" value="Free" required>
+      <label for="radio">Free</label>
+
+      <br>
+      <input type="checkbox" name="RememberMe" value="RememberMe" required>
+      <label for="RememberMe">Remember Me?</label>
+      <br>
+      <button type="submit">SUBMIT TO TUCKER</button>
+      <br>
 
 
 
 
-        </div>
-    </form>
-  </body>
+    </div>
+  </form>
+</body>
+
 </html>
