@@ -7,18 +7,27 @@
   <body>
 <form name ="FORM">
 
-<input required type="email">Email
- <br>
-<input required type="password">Password
-<br>
-<input  type="text"> Github Username
-<br>
-  <input type="radio" name="level" value="Enterprise"> Enterprise<br>
-  <input type="radio" name="level" value="Pro"> Pro<br>
-  <input type="radio" name="level" value="Free"> Free<br>
+<input required type="email" id = "email">
+<label for="email">Email</label>
 
-<input type="checkbox"> Remember Me
-<input type="submit" value="Submit">
+ <br>
+<input required type="password" id = "password">
+<label for="password">Password</label>
+<br>
+<input  type="text" id = "userName">
+<label for="userName">Github Username</label>
+<br>
+  <input type="radio" name="level" value="Enterprise" id="enterprise">
+  <label for="enterprise">Enterprise</label>
+  <br>
+  <input type="radio" name="level" value="Enterprise" id="pro">
+  <label for="pro">Pro</label>
+  <br>
+  <input type="radio" name="level" value="free" id="free">
+  <label for="free">Free</label>
+<input type="checkbox" id="checkbox">
+<label for="checkbox">Remember Me</label>
+<input type="submit" value="Submit" id = "submit">
 </form>
   </body>
 </html>
